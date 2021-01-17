@@ -1,0 +1,221 @@
+.container {
+  align-items: flex-start;
+}
+.police {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.stickybtn>button{
+  background-color: transparent;
+  border: 2px solid #1e3c48;
+  color: #0059e7;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  height: 50px;
+  width: 50px;
+
+  -webkit-transition-duration: .5s; /* Safari */
+  transition-duration: .5s;
+}
+#stx{
+  background-color: #1e3c48;
+  border-radius: 0px 75px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 25px;
+  width: 50px;
+  padding: 0px;
+  margin-top: 5px;
+}
+#stk{
+  background-color: #1e3c48;
+  border-radius: 0px 0px 75px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 25px;
+  width: 50px;
+  padding: 0px;
+  margin-top: 5px;
+}
+
+#stk:hover{
+  background-color: #1e3c48;
+  border-radius: 0px 0px 75px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 75px;
+  width: 100px;
+  padding: 0px;
+  padding-right: 20px;
+  margin-top: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+
+  box-shadow: 5px 5px 10px black;
+}
+#stk:hover:before{content: "↑"}
+
+
+#stx:hover{
+  background-color: #1e3c48;
+  border-radius: 0px 75px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 75px;
+  width: 100px;
+  padding: 0px;
+  padding-right: 20px;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  box-shadow: 5px 5px 10px black;
+}
+#stx:hover:before{content: "↓"}
+
+#introduction:hover span{display: none;}
+#introduction:hover{
+  background-color: #1e3c48;
+  border: 2px solid #1e3c48;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 45px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height: 50px;
+  width: 150px;
+  box-shadow: 5px 5px 10px black;
+}
+#introduction:hover:before {content:"Introduction"}
+
+#concept:hover span{display: none;}
+#concept:hover{
+  background-color: #1e3c48;
+  border: 2px solid #1e3c48;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 45px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height: 80px;
+  width: 200px;
+  box-shadow: 5px 5px 10px black;
+}
+#concept:hover:before {content:"Concept of Industrial Management"}
+
+#scope:hover span{display: none;}
+#scope:hover{
+  background-color: #1e3c48;
+  border: 2px solid #1e3c48;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 45px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height: 80px;
+  width: 200px;
+  box-shadow: 5px 5px 10px black;
+}
+#scope:hover:before {content:"Scope of Industrial Management"}
+
+#need:hover span{display: none;}
+#need:hover{
+  background-color: #1e3c48;
+  border: 2px solid #1e3c48;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 45px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height: 80px;
+  width: 200px;
+  box-shadow: 5px 5px 10px black;
+}
+#need:hover:before {content:"Need of Industrial Management"}
+
+#purpose:hover span{display: none;}
+#purpose:hover{
+  background-color: #1e3c48;
+  border: 2px solid #1e3c48;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 45px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height: 100px;
+  width: 220px;
+  box-shadow: 5px 5px 10px black;
+}
+#purpose:hover:before {content:"The Purpose of Studying Industrial Management"}
+
+#bachelor:hover span{display: none;}
+#bachelor:hover{
+  background-color: #1e3c48;
+  border: 2px solid #1e3c48;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 45px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height: 100px;
+  width: 220px;
+  box-shadow: 5px 5px 10px black;
+}
+#bachelor:hover:before {content:"Bachelor's Degree in Industrial Management"}
+
+#master:hover span{display: none;}
+#master:hover{
+  background-color: #1e3c48;
+  border: 2px solid #1e3c48;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 45px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height: 100px;
+  width: 220px;
+  box-shadow: 5px 5px 10px black;
+}
+#master:hover:before {content:"Master's Degree in Industrial Management"}
+
+#popular:hover span{display: none;}
+#popular:hover{
+  background-color: #1e3c48;
+  border: 2px solid #1e3c48;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 45px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height: 80px;
+  width: 200px;
+  box-shadow: 5px 5px 10px black;
+}
+#popular:hover:before {content:"Popular Career Options"}
